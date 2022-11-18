@@ -1,0 +1,64 @@
+#cv {
+    height:100vh;
+    width:100
+    display : grid;
+    grid-template-rows: 5fr 2fr;
+    padding :0;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fefefe;
+}
+
+header {
+    width:100%;
+}
+
+#cv main {
+    width:100
+    display: grid;
+    grid-template-columns: 1fr1fr;
+    padding-top:1em;
+    padding-bottom: 1em;
+}
+
+header {
+    color : white;
+    background-color:#24527c;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em
+    font-weight: 600;
+}
+
+h1 span {
+    text-transform: upercase;
+}
+
+h2 {
+    font-size: 2em
+    font-weight: 400;
+}
+
+#left #right {
+    padding: 50em;
+    padding-right: 5em;
+}
+
+#left {
+    border-right: 1px solid #bababa;
+}
+
+#cv > h3 {
+    font-size: 1.8em;
+    font-weight: 400;
+    text-transform: uppercase;
+    color:#24527c;
+}
+
+#cv h4 {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
